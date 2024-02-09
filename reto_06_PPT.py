@@ -36,7 +36,7 @@ def jankenpon(listado_jugada): #Se pueden jugar las rondas que se quieran.
             player2 += 1
     if player1 == player2:
         resultado = "Empate"
-    if player1>player2:
+    elif player1>player2:
         resultado = "Gano el Player 1"
     else:
         resultado = "Gano el Player 2"
